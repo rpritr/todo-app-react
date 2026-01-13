@@ -1,0 +1,9 @@
+@use "../../styles/general/general";
+
+.btn {
+  background-color: general.$colors-add;
+  border-radius: 5px;
+  border: none;
+  color: general.$colors-outline; // TODO 2C2C2C
+  padding: 10px 20px;
+}
