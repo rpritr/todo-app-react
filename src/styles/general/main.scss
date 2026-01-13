@@ -1,0 +1,5 @@
+@use "./general";
+
+h1 {
+  color: general.$colors-bg;
+}

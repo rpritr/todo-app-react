@@ -1,5 +1,5 @@
 import './App.css';
-
+import "./styles/general/main.scss";
 export function App() {
   return (
     <>
