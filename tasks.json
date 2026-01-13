@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "done": false
+    },
+    {
+      "id": 2,
+      "title": "Finish project report",
+      "done": true
+    },
+    {
+      "id": 3,
+      "title": "Call the electrician",
+      "done": false
+    },
+    {
+      "id": 4,
+      "title": "Schedule dentist appointment",
+      "done": true
+    },
+    {
+      "id": 5,
+      "title": "Clean the apartment",
+      "done": false
+    },
+    {
+      "id": 6,
+      "title": "Prepare presentation slides",
+      "done": true
+    },
+    {
+      "id": 7,
+      "title": "Go for a run",
+      "done": false
+    },
+    {
+      "id": 8,
+      "title": "Read a chapter of a book",
+      "done": true
+    },
+    {
+      "id": 9,
+      "title": "Update resume",
+      "done": false
+    },
+    {
+      "id": 10,
+      "title": "Backup laptop files",
+      "done": true
+    }
+  ]
+}
