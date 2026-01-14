@@ -23,15 +23,18 @@ const Todo = () => {
         return (
             <>
                 <div className={styles.list}>
-                    { tasks.map(task => (
-                        <div key={task.id} className={styles.item}>
-                            { task.title}
-                            <div className={styles.actions}>
-                                { task.done ? <Button title="Undone" type="secondary"/> : <Button title="Done" type="secondary-alt"/>}
-                                <Button title="Remove" type="adjacent"/>
+                    { tasks.map(task => {
+                        const classList = [styles.item, task.done? styles.undone : styles.done].join(" ");;
+                        return (
+                            <div key={task.id} className={classList}>
+                                <span className={task.done? styles.undone : styles.done}>{ task.title}</span>
+                                <div className={styles.actions}>
+                                    { task.done ? <Button title="Undone" type="secondary-alt" size="small" /> : <Button title="Done" type="secondary" size="small"/>}
+                                    <Button title="Remove" type="adjacent" size="small"/>
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </>
         )

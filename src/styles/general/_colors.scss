@@ -1,7 +1,9 @@
+@use "sass:color";
 $bg: #202020;
 $outline: #373737;
 $text: #BABABA;
 $add: #626ED9;
 $done: #ECBB5B;
+$doneAlt: color.scale($done, $alpha: -50%);
 $remove: #C64444;
 $white: #FFFFFF;
